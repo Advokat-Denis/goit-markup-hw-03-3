@@ -1,3 +1,15 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container,
+.hero_section {
+    width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
 
 title {
     font-family: "Raleway", sans-serif;
@@ -15,6 +27,22 @@ body {
     background-color: #fff;
     color: #434455;
     }
+
+
+
+.top-line,
+.menu-nav,
+.nav-bar,
+.address-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-nav {
+    justify-content: flex-end;
+}
+
 
 .web {
     color: #4d5ae5;
@@ -45,6 +73,7 @@ body {
 
 .address {
     font-style: normal;
+    
 }
 
 .address-link {
@@ -52,6 +81,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
 }
 
 .address-link:hover,
@@ -61,14 +91,18 @@ body {
 
 .hero_section {
     background-color: #2e2f42;
+   
 }
 
 .hero_header {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    padding: 188px 472px 292px 472px;
+    width: 496px;
+    height: 120px;
+    
 }
 
 .order_button {
@@ -80,6 +114,7 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+        
 }
 
 .order_button:hover,
