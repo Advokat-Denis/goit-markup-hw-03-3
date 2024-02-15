@@ -162,6 +162,11 @@ width: 1158px;
 
 }
 
+.our-focus-list {
+    display: flex;
+    gap: 24px;
+    
+}
 
 .focus {
     font-weight: 500;
