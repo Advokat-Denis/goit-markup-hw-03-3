@@ -16,7 +16,8 @@ header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.container,
+.top-line.header {
     width: 1158px;
     padding: 0 156px;
     margin: 0 auto;
@@ -49,7 +50,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.top-line.header {
+.top-line {
 border-bottom: 1px solid #e7e9fc;
 padding: 0 15px 0 15px;
 width: 1158px;
