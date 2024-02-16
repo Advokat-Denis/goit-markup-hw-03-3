@@ -186,7 +186,12 @@ width: 1158px;
 .team-list {
     display: flex;
     gap: 24px;
+    align-items: center;
+    }
+
+.team-item {
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -231,12 +236,6 @@ width: 1158px;
     background-color: #ffffff;
     display: flex;
     gap: 24px;
-    }
-
-.our-team-group-one {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-   
     }
 
 .mark {
